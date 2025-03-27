@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5965bfbcd1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="assect/Blue White Modern Minimalist Name Logo_20240930_235918_0000.png"> -->
+                <h1>AMEJAN.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openemenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Designer</p>
+                <h1>Hi, I'm <span> Amejan</span> <br> From Nepal.</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assect/Picsart_24-09-28_23-11-23-364.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>It's me Amejan Bohara student of B.tech. Currently pursuing my Computer Science Engineering from
+                        Kurukshetra University Kurukshetra.I had completed my Frontend design by learning HTML, CSS and
+                        Javascript with reputed Institution in Kathmandu Nepal & make project on three different topic
+                        which are more user friendly & responsive. </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span> <br> Designing Web/App interfaces.</li>
+                            <li><span>Frontend web Development</span> <br> Designing Websites interfaces.</li>
+                            <li><span>CSS/HTML&Javascript</span> <br>Making responsive websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023- Current</span> <br> UI/UX design Training at Broadways Infosys Ktm.Nepal.
+                            </li>
+                            <li><span>2022- 2023</span> <br> Web design Training at APETECH Lalitpur, Nepal.</li>
+                            <li><span>2021-2022</span> <br>Learnt HTML,CSS & Javascript from Youtube and from My college
+                                Teacher.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span> <br>Completed My SEE(10th) from Zenith Educational Academy school
+                            </li>
+                            <li><span>2020- 2022</span> <br>Completed My Intermediate(12Th) from Holyland English
+                                Secondary School in Science.</li>
+                            <li><span>2023- current</span> <br>Running My B.tech in Computer Science and Engineeging
+                                from Kurukshetra University Kurukshetra ,India.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FrontEnd Web design</h2>
+                    <p>Frontend web design focuses on creating visually appealing, interactive, and responsive user
+                        interfaces. It combines HTML, CSS, & javaScript to ensure a seamless user experiece across
+                        devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/Ux design ensure product are both visually appealing and easy to use. UI focuses on the
+                        layout, while UX enhances the overall experience.Good design anticipate user needs and reduces
+                        friction. A well-executed UI/UX keeps users engaged and satisfied.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML, CSS & Javascript</h2>
+                    <p>HTML, CSS & JS are the core building block of web development. HTML provides the structure and
+                        content, giving a foundation to web pages. CSS brings the style, adding colors, fonts, and
+                        layout that makes websites visually appealing. Javascript adds interactivity, allowing users to
+                        engage with dynamic elements like forms, buttons and animations.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://watermark.lovepik.com/photo/40008/0007.jpg_wh1200.jpg">
+                    <div class="layer">
+                        <h3>Online shopping websites clone</h3>
+                        <p>As i have created many E-commerce FrontEnd clone by using HTML , CSS and Javascript.Some of
+                            them are clone of Amazon, Zomato etc. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img
+                        src="https://repository-images.githubusercontent.com/525659593/2438ea1c-0c40-4d59-8334-97980cb07717">
+                    <div class="layer">
+                        <h3>NetFlix Clone to watch Movie</h3>
+                        <p>I have also make a project on Netflix frontend clone for my first year project in college. It
+                            was nearby similar to real one and responsive tooo.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIW2G0e7fPlvRPEsp8aStS28JGlLokd2LdBW-vMq1KDXOy_bwgGomPNynqtKYGFT-Gf8M&usqp=CAU">
+                    <div class="layer">
+                        <h3>Game Tic-tac-toe</h3>
+                        <p>In First Year training report I had also made a simple and quick game (tic-tac-toe)for my
+                            college by using Javascript with CSS and HTMl.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -----------------contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-tite">Contact Me</h2>
+                    <p><i class="fa-solid fa-envelope"></i>amejanbohara7@gmail.com</p>
+                    <p><i class="fa-brands fa-square-whatsapp"></i>(+977)9844538946</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100091547053065"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/amejan_bohara30?igsh=MWpyYW1lYWkwYmpsbw=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://x.com/amejan_bohara?t=N1JFcY0xg71uBUW_0FsuBw&s=09"><i
+                                class="fa-brands fa-square-x-twitter"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/amejan-bohara-318072250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@amazjngtech?si=bsZhd3pDSt5NVzim"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="" class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Amejan.<i class="fa-solid fa-heart"></i> Made with my Tutorials</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
